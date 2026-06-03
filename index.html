@@ -119,13 +119,13 @@
         /* 5. 기술 스택 섹션 */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
         }
 
         .skill-card {
             background-color: var(--card-bg);
-            padding: 25px;
+            padding: 30px;
             border-radius: 12px;
             border: 1px solid #334155;
             transition: transform 0.3s, border-color 0.3s;
@@ -137,18 +137,20 @@
         }
 
         .skill-card h3 {
-            margin-bottom: 15px;
-            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 8px;
         }
 
         .skill-card ul {
             list-style: none;
             color: var(--text-sub);
-            font-size: 0.95rem;
+            font-size: 1.05rem;
         }
 
         .skill-card li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
         }
 
         /* 6. 프로젝트 섹션 */
@@ -264,25 +266,16 @@
                 <div class="skill-card">
                     <h3>Languages</h3>
                     <ul>
+                        <li>• C</li>
                         <li>• Java</li>
                         <li>• Python</li>
-                        <li>• JavaScript (ES6+)</li>
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <h3>Frameworks</h3>
+                    <h3>Databases</h3>
                     <ul>
-                        <li>• Spring Boot</li>
-                        <li>• Node.js / Express</li>
-                        <li>• React</li>
-                    </ul>
-                </div>
-                <div class="skill-card">
-                    <h3>Databases & Tools</h3>
-                    <ul>
-                        <li>• MySQL / PostgreSQL</li>
-                        <li>• Git & GitHub</li>
-                        <li>• Docker</li>
+                        <li>• MongoDB</li>
+                        <li>• MySQL</li>
                     </ul>
                 </div>
             </div>
@@ -295,14 +288,13 @@
                 <div class="project-card">
                     <div class="project-img">[ Project Image / Logo ]</div>
                     <div class="project-info">
-                        <div class="project-date">2026.03 - 2026.05 (학부 프로젝트)</div>
-                        <h3>웹 기반 일정 관리 및 협업 플랫폼</h3>
-                        <p class="project-desc">RESTful API 설계와 데이터베이스 정규화를 통해 팀원 간의 실시간 동기화 오류를 30% 개선한 웹 협업 툴 프로젝트입니다.</p>
+                        <div class="project-date">학부 프로젝트</div>
+                        <h3>데이터 분석 및 저장 시스템 빌드</h3>
+                        <p class="project-desc">RDBMS와 NoSQL의 특징을 활용하여 대용량 데이터를 효율적으로 구조화하고 쿼리 성능을 최적화한 프로젝트입니다.</p>
                         <div class="project-tags">
-                            <span>Spring Boot</span>
+                            <span>Python</span>
                             <span>MySQL</span>
-                            <span>React</span>
-                            <span>WebSocket</span>
+                            <span>MongoDB</span>
                         </div>
                     </div>
                 </div>
@@ -310,14 +302,13 @@
                 <div class="project-card">
                     <div class="project-img">[ Project Image / Logo ]</div>
                     <div class="project-info">
-                        <div class="project-date">2025.11 (개인 프로젝트)</div>
-                        <h3>공공 데이터를 활용한 위치 기반 서비스</h3>
-                        <p class="project-desc">Open API를 커스텀하여 내 주변의 편의 시설 정보를 그리드 알고리즘 기반으로 정렬해 보여주는 웹 어플리케이션입니다.</p>
+                        <div class="project-date">개인 프로젝트</div>
+                        <h3>C언어 기반의 효율적인 자료구조 구현</h3>
+                        <p class="project-desc">메모리 동적 할당과 포인터를 활용하여 직접 트리 및 그래프 구조를 설계하고 성능 알고리즘을 분석한 프로젝트입니다.</p>
                         <div class="project-tags">
-                            <span>Python</span>
-                            <span>Flask</span>
-                            <span>Vanilla JS</span>
-                            <span>AWS EC2</span>
+                            <span>C Language</span>
+                            <span>Data Structure</span>
+                            <span>Algorithm</span>
                         </div>
                     </div>
                 </div>
